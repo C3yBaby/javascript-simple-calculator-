@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(image/replace.jpg) ;
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+
+}
+.calbody{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-30%);
+    width: 400px;
+    height: 500px;
+}
+.tot{
+     text-align: center;
+     color: black;
+     margin: 40px;
+     font-size: 50px;
+     border: 7px solid black;
+     padding: auto;
+     border-radius: 20px;
+}
+table{
+    background-color: blue;
+    box-shadow: black 10px 20px 120px;
+    border: 5px solid;
+    border-radius: 20px;
+    height: 180px;
+    width: auto;
+}
+td{
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: red;
+}
+input[type="button"]{
+    width: 90px;
+    height: 80px;
+    border: 2px solid red;
+    border-radius: 15px;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: unset;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    outline: none !important;
+
+}
+input[type="button"]:hover{
+    background-color: red;
+    color:white;
+}
+input[type="text"]{
+    height: 100px;
+    width:360px;
+    margin: 10px;
+    border: 2px solid;
+    padding: 2px;
+    color: 5px red;
+    font-style: unset;
+    text-align: right;
+    font-size: 50px;
+
+}
